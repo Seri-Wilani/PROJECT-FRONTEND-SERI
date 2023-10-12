@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ChildPro</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+
+  <style>
+    .head {
+      background-color: #fee8d7;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+    }
+
+    input {
+      border-radius: 30px;
+      border-color: #4a4a4a;
+      border-width: medium;
+      width: 1200px;
+      height: 40px;
+      padding: 0 20px;
+    }
+  </style>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-lg">
+        <a class="navbar-brand" href="index.html">Child<span>Pro</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="dashboard.html">Home</a>
+            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link" href="consultation.html">Doctor</a>
+            <a class="nav-link" href="article.html">Article</a>
+          </div>
+        </div>
+        <a type="button" class="btn" href="account.html">Account</a>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Hero Section -->
+    <section class="Hero" id="tumbuh-kembang">
+      <main class="content container">
+        <div class="row d-flex align-items-baseline justify-content-center">
+          <div class="col-lg-6">
+            <img src="Assets/4887688_52068 1.png" alt="gambar" style="width: 600px" />
+          </div>
+          <div class="col-lg-6">
+            <h1>Child<span2>Pro</span2></h1>
+            <h2>With us follow the growth of <br />your child</h2>
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- Hero Section -->
+
+    <section id="roomchat">
+      <div class="container">
+        <div class="head col-lg-12 d-flex align-items-center px-5 py-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+          </svg>
+          <div class="profile mx-3">
+            <div class="fs-5 fw-semibold">Doctor's Name</div>
+            <div class="fs-6">child specialist</div>
+          </div>
+        </div>
+        <div class="room col-lg-12" style="height: 550px; overflow-y: scroll"></div>
+        <div class="tab col-lg-12 d-flex align-items-center justify-content-center px-5 py-3">
+          <div class="icon-image mx-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-image-fill" viewBox="0 0 16 16">
+              <path
+                d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"
+              />
+            </svg>
+          </div>
+          <div class="icon-clip mx-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16">
+              <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z" />
+            </svg>
+          </div>
+          <input type="text" name="" id="" />
+          <div class="icon-send mx-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+              <path
+                d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="row text-center d-flex justify-content-center align-items-center" style="margin: auto"></div>
+        <p class="text-center py-3">Unresolved issue? <a href="consultation.html" class="text-decoration-none text-black fw-bold">See a Doctor</a></p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="menu col-lg-2">
+            <h4>ChildPro</h4>
+            <p>Get Discount</p>
+            <p>Membership</p>
+          </div>
+          <div class="menu col-lg-3">
+            <h4>Support</h4>
+            <p>123 Happy Street Anywhere</p>
+            <p>Child@Email.com</p>
+            <p>+628xxxxxxxxxx</p>
+          </div>
+          <div class="menu col-lg-2">
+            <h4>Account</h4>
+            <p>Login/Register</p>
+            <p>My Account</p>
+            <p>Forgot Password</p>
+          </div>
+          <div class="menu col-lg-2">
+            <h4>Quick Link</h4>
+            <p>Privacy Policy</p>
+            <p>Term Of Use</p>
+            <p>FAQ</p>
+            <p>Contact</p>
+          </div>
+          <div class="social-media col-lg-3">
+            <div class="d-flex align-items-center justify-content-end">
+              <img src="Assets/Facebook.svg" alt="" />
+              <img src="Assets/Twitter.svg" alt="" />
+              <img src="Assets/instagram.svg" alt="" />
+              <img src="Assets/Linkedin.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="credits">
+          <p class="text-center">&copy;Copyright Ignition Collective 2023. All right reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>

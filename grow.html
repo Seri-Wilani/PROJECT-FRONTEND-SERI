@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ChildPro</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      .Profile_Anak .content {
+        background-color: #fee8d7;
+        border-radius: 10px;
+        border: 3px solid #ff9b50;
+      }
+      .Growth_Status .card {
+        background-color: #fee8d7;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-lg">
+        <a class="navbar-brand" href="index.html">Child<span>Pro</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="dashboard.html">Home</a>
+            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link" href="consultation.html">Doctor</a>
+            <a class="nav-link" href="article.html">Article</a>
+          </div>
+        </div>
+        <a type="button" class="btn" href="SignUp.html">Sign Up</a>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Hero Section -->
+    <section class="Hero" id="tumbuh-kembang">
+      <div class="container">
+        <div class="row d-flex align-items-baseline justify-content-center">
+          <div class="col-lg-6">
+            <img src="Assets/4887688_52068 1.png" alt="gambar" style="width: 600px" />
+          </div>
+          <div class="col-lg-6">
+            <h1>Child<span>Pro</span></h1>
+            <h2>With us, follow the growth of your child</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section -->
+    <!-- Profile Anak -->
+    <section class="Profile_Anak container" id="Profile_Anak">
+      <h4 class="mb-5">Child Profile</h4>
+      <div class="content p-3">
+        <div class="row">
+          <div class="col">
+            <h3 class="text-center">Growth Data</h3>
+            <p class="text-center">Measure children's growth regularly</p>
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-5">
+                <div class="Nama d-flex justify-content-between">
+                  <label>Name</label>
+                  <label>Petter</label>
+                </div>
+                <div class="Date d-flex justify-content-between">
+                  <label for="">Date of birth</label>
+                  <label>12-05-2021</label>
+                </div>
+                <div class="Gender d-flex justify-content-between">
+                  <label>Gender</label>
+                  <label>Male</label>
+                </div>
+                <form action="" class="form">
+                  <input type="number" class="form-control py-2 mb-1" placeholder="Weight" id="Weight" />
+                  <input type="number" class="form-control py-2 mb-1" placeholder="Height" id="Height" />
+                  <input type="number" class="form-control py-2 mb-1" placeholder="Head Circumference" id="HeadCircumference" />
+                  <button type="submit" class="btn btn-primary btn-lg w-100 fw-bold mt-3 mb-2">Submit</button>
+                  <div class="text-center"><input type="checkbox" /><label>The data entered is correct</label></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Profile Anak -->
+    <!-- Growth Status -->
+    <section class="Growth_Status" id="Growth_Status">
+      <div class="content container">
+        <h4 class="mt-5">Growth Status</h4>
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-lg-6">
+            <img src="Assets/4887688_52068 1.png" alt="gambar" style="width: 600px" />
+          </div>
+          <div class="col-lg-6">
+            <div class="card g-0 px-3" style="max-width: 840px">
+              <div class="card-body">
+                <h4 class="text-center">Growth Status</h4>
+                <div class="row d-flex justify-content-between">
+                  <div class="col-lg-5">
+                    <p class="m-2">Name</p>
+                    <p class="m-2">Date of birth</p>
+                    <p class="m-2">Gender</p>
+                    <p class="m-2">Weight</p>
+                    <p class="m-2">Height</p>
+                    <p class="m-2">Head Circumference</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <p class="m-2">Petter</p>
+                    <p class="m-2">12-05-2021</p>
+                    <p class="m-2">Male</p>
+                    <p class="m-2">7.90 kg</p>
+                    <p class="m-2">70 cm</p>
+                    <p class="m-2">37 cm</p>
+                  </div>
+                  <button class="btn form-control btn-consultation px-2 mt-2 rounded-3">Normal</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-lg-6">
+            <img src="Assets/4887688_52068 1.png" alt="gambar" style="width: 600px" />
+          </div>
+          <div class="col-lg-6">
+            <div class="card g-0 px-3" style="max-width: 840px">
+              <div class="card-body">
+                <h4 class="text-center">Growth Status</h4>
+                <div class="row d-flex justify-content-between">
+                  <div class="col-lg-5">
+                    <p class="m-2">Name</p>
+                    <p class="m-2">Date of birth</p>
+                    <p class="m-2">Gender</p>
+                    <p class="m-2">Weight</p>
+                    <p class="m-2">Height</p>
+                    <p class="m-2">Head Circumference</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <p class="m-2">Petter</p>
+                    <p class="m-2">12-05-2021</p>
+                    <p class="m-2">Male</p>
+                    <p class="m-2">7.90 kg</p>
+                    <p class="m-2">70 cm</p>
+                    <p class="m-2">37 cm</p>
+                  </div>
+                  <button class="btn form-control btn-consultation px-2 mt-2 rounded-3">Abnormal</button>
+                  <!-- <a href=""><p>Would you like to consult? Click Here</p></a> -->
+                  <div class="d-flex justify-content-center align-items-baseline mt-2">
+                    <p>Would you like to consult? <a href="consultation.html" class="text-decoration-none text-black fw-bold">Click Here</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Growth Status -->
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="menu col-lg-2">
+            <h4>ChildPro</h4>
+            <p>Get Discount</p>
+            <p>Membership</p>
+          </div>
+          <div class="menu col-lg-3">
+            <h4>Support</h4>
+            <p>123 Happy Street Anywhere</p>
+            <p>Child@Email.com</p>
+            <p>+628xxxxxxxxxx</p>
+          </div>
+          <div class="menu col-lg-2">
+            3
+            <h4>Account</h4>
+            <p>Login/Register</p>
+            <p>My Account</p>
+            <p>Forgot Password</p>
+          </div>
+          <div class="menu col-lg-2">
+            <h4>Quick Link</h4>
+            <p>Privacy Policy</p>
+            <p>Term Of Use</p>
+            <p>FAQ</p>
+            <p>Contact</p>
+          </div>
+          <div class="social-media col-lg-3">
+            <div class="d-flex align-items-center justify-content-end">
+              <img src="Assets/Facebook.svg" alt="" />
+              <img src="Assets/Twitter.svg" alt="" />
+              <img src="Assets/instagram.svg" alt="" />
+              <img src="Assets/Linkedin.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="credits">
+          <p class="text-center">&copy; Copyright Ignition Collective 2023. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>

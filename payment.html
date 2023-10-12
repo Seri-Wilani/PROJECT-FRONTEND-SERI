@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ChildPro</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+
+  <style>
+    /* background-color: #9f9f9f; */
+  </style>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-lg">
+        <a class="navbar-brand" href="index.html">Child<span>Pro</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="dashboard.html">Home</a>
+            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link" href="consultation.html">Doctor</a>
+            <a class="nav-link" href="article.html">Article</a>
+          </div>
+        </div>
+        <a type="button" class="btn" href="account.html">Account</a>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Hero Section -->
+    <section class="Hero" id="tumbuh-kembang">
+      <main class="content container">
+        <div class="row d-flex align-items-baseline justify-content-center">
+          <div class="col-lg-6">
+            <img src="Assets/4887688_52068 1.png" alt="gambar" style="width: 600px" />
+          </div>
+          <div class="col-lg-6">
+            <h1>Child<span2>Pro</span2></h1>
+            <h2>With us follow the growth of <br />your child</h2>
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- Hero Section -->
+
+    <section class="payment-detail container" id="payment-detail">
+      <h4 class="mb-5">Payment Detail</h4>
+      <div class="row d-flex justify-content-center">
+        <div class="doctor-card d-flex col-lg-6">
+          <div class="card p-2" style="max-width: 840px">
+            <div class="row g-0">
+              <div class="col-lg-4">
+                <img src="Assets/Doctor 1.png" class="img-fluid rounded-start" alt="..." />
+              </div>
+              <div class="col-lg-8">
+                <div class="card-body d-flex flex-column p-0 ps-3">
+                  <div class="docter-information pt-2">
+                    <h3 class="card-title">Doctor Name</h3>
+                    <p class="card-text">Child Specialis</p>
+                    <div class="btn btn-primary">
+                      <img src="Assets/Exprerince.svg" alt="" class="me-1" />
+                      <p class="d-inline">5 year</p>
+                    </div>
+                    <div class="btn btn-primary">
+                      <img src="Assets/Like.svg" alt="" class="me-1" />
+                      <p class="d-inline">92%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center mt-3">
+        <div class="payment-detail-card col-lg-6">
+          <div class="card g-0" style="max-width: 840px">
+            <div class="card-body">
+              <div class="row d-flex justify-content-between">
+                <div class="col-lg-5">
+                  <p class="m-2">Session Fee/60 Minutes</p>
+                  <p class="m-2">Services Fee</p>
+                  <p class="m-2">Discount</p>
+                  <p class="m-2 fw-semibold">Your Payment</p>
+                </div>
+                <div class="col-lg-3 d-flex flex-column align-items-end">
+                  <p class="m-1">Rp.100.000</p>
+                  <p class="m-1">Rp.5.000</p>
+                  <p class="m-1">-Rp.20.000</p>
+                  <div class="price d-flex align-items-center">
+                    <p class="m-1">Rp. 85.000</p>
+                    <img src=" Assets/Price.svg" alt="price" width="20px" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="" class="btn form-control btn-consultation py-2 mt-3 rounded-3">
+            <svg class="discount" width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11.6474 1.49797C12.0694 1.02666 12.586 0.649645 13.1636 0.391529C13.7411 0.133412 14.3666 0 14.9993 0C15.6319 0 16.2574 0.133412 16.8349 0.391529C17.4125 0.649645 17.9291 1.02666 18.3511 1.49797L19.4009 2.67079C19.551 2.83862 19.7368 2.97053 19.9448 3.05672C20.1527 3.14292 20.3774 3.18119 20.6022 3.16871L22.1769 3.08172C22.8084 3.04704 23.44 3.14587 24.0307 3.37177C24.6214 3.59768 25.1578 3.94557 25.605 4.39276C26.0522 4.83995 26.4001 5.3764 26.626 5.9671C26.8519 6.55781 26.9507 7.1895 26.916 7.82097L26.829 9.39572C26.8168 9.62024 26.8552 9.84465 26.9414 10.0523C27.0275 10.26 27.1593 10.4457 27.327 10.5955L28.5012 11.6454C28.9728 12.0674 29.35 12.5841 29.6083 13.1618C29.8665 13.7396 30 14.3653 30 14.9981C30 15.6309 29.8665 16.2566 29.6083 16.8343C29.35 17.412 28.9728 17.9288 28.5012 18.3508L27.327 19.4006C27.1591 19.5507 27.0272 19.7366 26.941 19.9445C26.8548 20.1525 26.8166 20.3772 26.829 20.6019L26.916 22.1767C26.9507 22.8082 26.8519 23.4399 26.626 24.0306C26.4001 24.6213 26.0522 25.1577 25.605 25.6049C25.1578 26.0521 24.6214 26.4 24.0307 26.6259C23.44 26.8518 22.8084 26.9506 22.1769 26.9159L20.6022 26.829C20.3777 26.8167 20.1533 26.8551 19.9456 26.9413C19.7379 27.0275 19.5523 27.1592 19.4024 27.3269L18.3526 28.5012C17.9306 28.9727 17.4139 29.35 16.8362 29.6082C16.2585 29.8665 15.6328 30 15 30C14.3672 30 13.7415 29.8665 13.1638 29.6082C12.5861 29.35 12.0694 28.9727 11.6474 28.5012L10.5976 27.3269C10.4475 27.159 10.2617 27.0271 10.0537 26.9409C9.84575 26.8547 9.62106 26.8165 9.39629 26.829L7.82159 26.9159C7.19013 26.9506 6.55846 26.8518 5.96777 26.6259C5.37709 26.4 4.84066 26.0521 4.39348 25.6049C3.9463 25.1577 3.59841 24.6213 3.37252 24.0306C3.14662 23.4399 3.04779 22.8082 3.08247 22.1767L3.16946 20.6019C3.18171 20.3774 3.14333 20.153 3.05714 19.9453C2.97095 19.7376 2.83917 19.552 2.67155 19.4021L1.49877 18.3523C1.02722 17.9303 0.650005 17.4135 0.391747 16.8358C0.133488 16.2581 0 15.6324 0 14.9996C0 14.3668 0.133488 13.7411 0.391747 13.1633C0.650005 12.5856 1.02722 12.0689 1.49877 11.6469L2.67155 10.597C2.83938 10.447 2.97128 10.2611 3.05747 10.0531C3.14367 9.84519 3.18194 9.62049 3.16946 9.39572L3.08247 7.82097C3.04779 7.1895 3.14662 6.55781 3.37252 5.9671C3.59841 5.3764 3.9463 4.83995 4.39348 4.39276C4.84066 3.94557 5.37709 3.59768 5.96777 3.37177C6.55846 3.14587 7.19013 3.04704 7.82159 3.08172L9.39629 3.16871C9.62081 3.18096 9.84521 3.14258 10.0529 3.05639C10.2606 2.9702 10.4462 2.83842 10.5961 2.67079L11.6459 1.49797H11.6474ZM20.5587 9.43921C20.8399 9.72046 20.9978 10.1019 20.9978 10.4995C20.9978 10.8972 20.8399 11.2786 20.5587 11.5599L11.5604 20.5585C11.2775 20.8316 10.8987 20.9828 10.5055 20.9794C10.1123 20.976 9.73612 20.8182 9.45806 20.5402C9.18 20.2621 9.02227 19.886 9.01885 19.4927C9.01544 19.0995 9.1666 18.7206 9.43979 18.4378L18.4381 9.43921C18.7193 9.15805 19.1007 9.0001 19.4984 9.0001C19.8961 9.0001 20.2775 9.15805 20.5587 9.43921ZM11.2499 8.99978C10.6533 8.99978 10.0811 9.2368 9.65926 9.65869C9.23738 10.0806 9.00037 10.6528 9.00037 11.2494V11.2644C9.00037 11.8611 9.23738 12.4333 9.65926 12.8552C10.0811 13.2771 10.6533 13.5141 11.2499 13.5141H11.2649C11.8616 13.5141 12.4338 13.2771 12.8556 12.8552C13.2775 12.4333 13.5145 11.8611 13.5145 11.2644V11.2494C13.5145 10.6528 13.2775 10.0806 12.8556 9.65869C12.4338 9.2368 11.8616 8.99978 11.2649 8.99978H11.2499ZM18.7486 16.4986C18.1519 16.4986 17.5797 16.7356 17.1579 17.1575C16.736 17.5794 16.499 18.1516 16.499 18.7482V18.7632C16.499 19.3599 16.736 19.9321 17.1579 20.354C17.5797 20.7759 18.1519 21.0129 18.7486 21.0129H18.7635C19.3602 21.0129 19.9324 20.7759 20.3542 20.354C20.7761 19.9321 21.0131 19.3599 21.0131 18.7632V18.7482C21.0131 18.1516 20.7761 17.5794 20.3542 17.1575C19.9324 16.7356 19.3602 16.4986 18.7635 16.4986H18.7486Z"
+                fill="#fff"
+              />
+            </svg>
+            <p class="d-inline">Get Discount</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="payment-method container" id="payment-method">
+      <div class="payment-method">
+        <div class="row d-flex justify-content-center mt-3">
+          <div class="credit-card col-lg-6">
+            <div class="card g-0 border border-0" style="max-width: 840px">
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn btn-credit d-flex justify-content-center align-items-center">E-wallet</a>
+                <a href="#" class="btn btn-credit-unselect d-flex justify-content-center align-items-center">Kredit/Debit Card</a>
+              </div>
+              <div class="card-tittle py-3">
+                <div class="row px-4 py-2">
+                  <div class="col-lg-12 mt-3">
+                    <div class="card border border-0">
+                      <div class="credit-payment d-flex align align-items-center justify-content-between p-3">
+                        <div class="credit-name d-flex align align-items-center">
+                          <img src="Assets/Gopay.png" alt="Gopay" width="25%" />
+                          <p class="mb-0 ms-2 fw-medium">Gopay</p>
+                        </div>
+                        <input type="radio" name="" id="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 mt-2">
+                    <div class="card border border-0">
+                      <div class="credit-payment d-flex align align-items-center justify-content-between p-3">
+                        <div class="credit-name d-flex align align-items-center">
+                          <img src="Assets/Shopee Pay.png" alt="Shoppe Pay" width="25%" />
+                          <p class="mb-0 ms-2 fw-medium">Shoppe Pay</p>
+                        </div>
+                        <input type="radio" name="" id="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 mt-2">
+                    <div class="card border border-0">
+                      <div class="credit-payment d-flex align align-items-center justify-content-between p-3">
+                        <div class="credit-name d-flex align align-items-center">
+                          <img src="Assets/Dana.png" alt="Dana" width="25%" />
+                          <p class="mb-0 ms-2 fw-medium">Dana</p>
+                        </div>
+                        <input type="radio" name="" id="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 mt-2">
+                    <div class="card border border-0">
+                      <div class="credit-payment d-flex align align-items-center justify-content-between p-3">
+                        <div class="credit-name d-flex align align-items-center">
+                          <img src="Assets/OVO.png" alt="OvO" width="25%" />
+                          <p class="mb-0 ms-2 fw-medium">OVO</p>
+                        </div>
+                        <input type="radio" name="" id="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Payment-confirm container">
+      <div class="row d-flex justify-content-center mt-3">
+        <div class="total-payment col-lg-6">
+          <div class="card card-total g-0 border border-0" style="max-width: 840px">
+            <div class="pay border">
+              <div class="card-body ps-4">
+                <p class="fw-semibold">Your Payment</p>
+                <p class="fw-medium">Rp.85.000</p>
+                <a href="chat.html" class="btn form-control btn-pay px-2 mt-2 rounded-3 width">Pay Now</a>
+                <!-- <button class="btn form-control btn-pay px-2 mt-2 rounded-3 width">Pay Now</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="menu col-lg-2">
+            <h4>ChildPro</h4>
+            <p>Get Discount</p>
+            <p>Membership</p>
+          </div>
+          <div class="menu col-lg-3">
+            <h4>Support</h4>
+            <p>123 Happy Street Anywhere</p>
+            <p>Child@Email.com</p>
+            <p>+628xxxxxxxxxx</p>
+          </div>
+          <div class="menu col-lg-2">
+            <h4>Account</h4>
+            <p>Login/Register</p>
+            <p>My Account</p>
+            <p>Forgot Password</p>
+          </div>
+          <div class="menu col-lg-2">
+            <h4>Quick Link</h4>
+            <p>Privacy Policy</p>
+            <p>Term Of Use</p>
+            <p>FAQ</p>
+            <p>Contact</p>
+          </div>
+          <div class="social-media col-lg-3">
+            <div class="d-flex align-items-center justify-content-end">
+              <img src="Assets/Facebook.svg" alt="" />
+              <img src="Assets/Twitter.svg" alt="" />
+              <img src="Assets/instagram.svg" alt="" />
+              <img src="Assets/Linkedin.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="credits">
+          <p class="text-center">&copy;Copyright Ignition Collective 2023. All right reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>
